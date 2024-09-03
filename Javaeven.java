@@ -1,19 +1,22 @@
-package corejava;
+package javapractiseprogram;
 
-public class Javaeven {
+public class JavaEven {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		for(int i=1;i<=50;i++)
+		int sum=0;
+		for(int i=0;i<=20;i++)
 		{
 			if(i%2==0)
+				
+			{			
+				sum=sum+i;
+			}
 			{
-				System.out.println("print even numbers upto 50="+i);
+				System.out.println("Print Even Numbers:"+sum);
 			}
 		}
 
 	}
 
 }
-
-
