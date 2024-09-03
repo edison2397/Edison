@@ -1,17 +1,19 @@
-package corejava;
+package javapractiseprogram;
 
-public class Javaodd {
+public class JavaOdd {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		for(int i=1;i<=50;i++)
+		int sum=0;
+		for(int i=0;i<=10;i++)
 		{
-			if(i%2==1)
+			if(i%2!=0)
 			{
-				System.out.println("print odd numbers upto 50:"+i);
-			}
+				
+			System.out.println("Print odd numbers"+i);
 		}
-
+		}
 	}
-
 }
+
+
